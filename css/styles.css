@@ -22,7 +22,7 @@
   --white-backgr-color: #ffff;
   --blue-backgr-cl: #404bbf;
 }
-
+/* All */
 h1,
 h2,
 h3,
@@ -45,27 +45,52 @@ body {
   font-family: var(--secondary-font);
   color: var(--primary-text-color);
 }
-/* Logo  */
-.logo {
+
+.container {
+  width: 1158px;
+}
+
+/* Header */
+.header-wrap {
+  display: flex;
+  padding: 24px 156px 24px 156px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.logo-header {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--logo-blue-color);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-right: 76px;
 }
 .cl-studioh {
   color: var(--primary-text-color);
 }
-
 .cl-studiof {
   color: var(--logo-white-color);
 }
 
-/* Header */
-
-.header {
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  margin-right: auto;
 }
+.list-header {
+  display: flex;
+  list-style: none;
+}
+
 .menu-item {
   font-family: var(--primary-font);
   font-style: normal;
@@ -99,6 +124,10 @@ body {
 .header-contact:focus {
   color: var(--blue-text-color);
 }
+
+.mail-contact {
+  margin-right: 40px;
+}
 .list-style {
   list-style: none;
 }
@@ -114,6 +143,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-text-color);
+  text-align: center;
+  padding: 188px 473px 292px 473px;
 }
 .hero-btn {
   font-family: var(--primary-font);
@@ -124,6 +155,14 @@ body {
   color: var(--white-text-color);
   background: var(--blue-backgr-color);
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 64px 635px 188px 636px;
 }
 .hero-btnhov:hover,
 .hero-btnhov:focus {
@@ -205,6 +244,14 @@ body {
 /* Footer */
 .footer {
   background: var(--primary-text-color);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--logo-blue-color);
 }
 
 .footer-text {
