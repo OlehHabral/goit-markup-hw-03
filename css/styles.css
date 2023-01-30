@@ -22,6 +22,25 @@
   --white-backgr-color: #ffff;
   --blue-backgr-cl: #404bbf;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 body {
   font-family: var(--secondary-font);
   color: var(--primary-text-color);
@@ -62,7 +81,8 @@ body {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-.menu-link:hover, .menu-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--primary-text-color);
 }
 .text-decor {
@@ -75,7 +95,8 @@ body {
   line-height: 1.5;
   color: var(--secondary-text-color);
 }
-.header-contact:hover, .header-contact:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--blue-text-color);
 }
 .list-style {
@@ -104,7 +125,7 @@ body {
   background: var(--blue-backgr-color);
   cursor: pointer;
 }
-.hero-btnhov:hover, 
+.hero-btnhov:hover,
 .hero-btnhov:focus {
   font-weight: 500;
   font-size: 16px;
@@ -112,7 +133,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
