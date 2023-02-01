@@ -315,6 +315,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--logo-blue-color);
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -324,7 +325,9 @@ body {
   color: var(--light-text-color);
 }
 .footer-container {
-  margin: 100px 1020px 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 1020px 100px 156px;
 }
 
 /* ========= */
