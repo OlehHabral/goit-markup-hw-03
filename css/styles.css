@@ -44,6 +44,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 body {
   font-family: var(--secondary-font);
@@ -52,6 +54,11 @@ body {
 
 .container {
   width: 1440px;
+}
+.section {
+  padding-right: 156px;
+  padding-bottom: 120px;
+  padding-left: 156px;
 }
 
 /* Header */
@@ -155,7 +162,7 @@ body {
   line-height: 1.07;
   color: var(--white-text-color);
   text-align: center;
-  padding: 188px 342px 292px 342px;
+  padding: 188px 473px 292px 473px;
 }
 .hero-btn {
   font-family: var(--primary-font);
@@ -356,6 +363,8 @@ body {
   color: var(--white-text-color);
   background-color: var(--blue-backgr-cl);
 }
+
+/* ============ */
 .portfolio-section {
   text-decoration: none;
 }
@@ -374,6 +383,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
+  margin-top: 8px;
+}
+.card-content {
+  padding: 32px 54px 32px 16px;
+  border-right: 1px solid var(--light-text-color);
+  border-bottom: 1px solid var(--light-text-color);
+  border-left: 1px solid var(--light-text-color);
 }
 
 .portfolio-item {
