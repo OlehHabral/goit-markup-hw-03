@@ -323,7 +323,7 @@ body {
 .portfolio-btn-li {
   display: flex;
   flex-direction: row;
-  padding-right: 4px;
+  padding-right: 8px;
   justify-content: center;
   margin-left: 84px;
 }
