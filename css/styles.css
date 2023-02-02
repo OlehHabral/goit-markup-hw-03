@@ -357,6 +357,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-text-color);
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-family: var(--primary-font);
@@ -370,6 +371,7 @@ body {
   border-right: 1px solid var(--light-text-color);
   border-bottom: 1px solid var(--light-text-color);
   border-left: 1px solid var(--light-text-color);
+  padding: 32px 16px;
 }
 
 .portfolio-item {
