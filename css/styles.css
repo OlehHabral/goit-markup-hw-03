@@ -208,12 +208,11 @@ body {
 }
 .description-box:not(:last-child) {
   margin-right: 24px;
-
 }
 
 /* Section 2 */
 .our-work {
-padding-top: 0;
+  padding-top: 0;
 }
 .list-work-style {
   display: flex;
@@ -393,7 +392,7 @@ padding-top: 0;
   margin: 0;
   list-style: none;
   gap: 48px 24px;
-  margin-bottom: 120px ;
+  margin-bottom: 120px;
 }
 .section {
   padding: 120px 0px;
