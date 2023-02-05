@@ -133,10 +133,10 @@ body {
   color: var(--blue-text-color);
 }
 
-.mail-contact {
+.nav-contact:not(:last-child) {
   margin-right: 40px;
 }
-.menu-header-li {
+.menu-header-li:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -208,11 +208,14 @@ body {
   color: var(--secondary-text-color);
   width: 264px;
 }
-.description-box {
+.description-box:not(:last-child) {
   margin-right: 24px;
 }
 
 /* Section 2 */
+.our-work {
+padding-top: 0;
+}
 .list-work-style {
   display: flex;
   justify-content: space-between;
