@@ -176,7 +176,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  letter-spacing: 0.04em;
+  background-color: var(--blue-backgr-cl);
   flex: none;
   order: 0;
   flex-grow: 0;
