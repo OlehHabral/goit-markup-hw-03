@@ -165,6 +165,7 @@ body {
   color: var(--white-text-color);
   background: var(--blue-backgr-color);
   cursor: pointer;
+  border: none;
 }
 .hero-btn-style {
   padding: 16px 32px 16px 32px;
@@ -173,12 +174,9 @@ body {
   display: block;
   margin: 0 auto;
 }
-.hero-btnhov:hover,
-.hero-btnhov:focus {
-  display: flex;
-  align-items: center;
+.hero-btn:hover,
+.hero-btn:focus {
   letter-spacing: 0.04em;
-  color: var(--white-text-color);
   flex: none;
   order: 0;
   flex-grow: 0;
