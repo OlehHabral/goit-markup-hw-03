@@ -317,12 +317,10 @@ body {
 /* ========= */
 
 /* Section 1/2 */
-.portfolio-btn-li {
+.portfolio-btn-li:not(:last-child) {
   display: flex;
   flex-direction: row;
   margin-right: 24px;
-  margin-top: 96px;
-  margin-bottom: 72px;
 }
 .portfolio-btn {
   font-family: var(--primary-font);
@@ -347,6 +345,8 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style: none;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 .filter-btn:hover {
   color: var(--white-text-color);
