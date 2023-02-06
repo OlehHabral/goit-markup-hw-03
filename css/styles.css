@@ -349,7 +349,7 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  margin-top: 96px;
+  padding-top: 96px;
   margin-bottom: 72px;
 }
 .filter-btn:hover {
