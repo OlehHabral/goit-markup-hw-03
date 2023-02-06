@@ -195,6 +195,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-text-color);
+  margin-bottom: 8px;
 }
 
 .descriptions-text {
@@ -244,18 +245,23 @@ body {
 
 /* Section 3 */
 
+.list-team-style {
+  padding: 0;
+  margin: 0;
+}
 .our-team {
   background: var(--light-backgr-color);
 }
 .team-img {
   margin-bottom: 32px;
 }
-.team-card {
+.team-card:not(:last-child) {
   background: var(--white-backgr-color);
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 .team-header {
   font-family: var(--primary-font);
@@ -299,7 +305,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--logo-blue-color);
-  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -308,6 +313,7 @@ body {
   line-height: 1.5;
   color: var(--light-text-color);
   width: 264px;
+  margin-top: 16px;
 }
 .footer-container {
   display: block;
