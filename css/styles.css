@@ -133,7 +133,6 @@ body {
 .header-contact:focus {
   color: var(--blue-text-color);
 }
-
 .nav-contact:not(:last-child) {
   margin-right: 40px;
 }
