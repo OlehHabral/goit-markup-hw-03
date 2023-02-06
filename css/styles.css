@@ -245,22 +245,20 @@ body {
 
 /* Section 3 */
 
-.list-team-style {
-  padding: 0;
-  margin: 0;
-}
 .our-team {
   background: var(--light-backgr-color);
 }
 .team-img {
   margin-bottom: 32px;
 }
-.team-card:not(:last-child) {
+.team-card {
   background: var(--white-backgr-color);
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.team-card:not(:last-child) {
   margin-right: 24px;
 }
 .team-header {
