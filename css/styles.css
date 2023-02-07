@@ -59,12 +59,14 @@ body {
 }
 
 /* Header */
+.header {
+  border-bottom: 1px solid var(--light-text-color);
+}
 .header-wrap {
   display: flex;
   padding: 24px 15px;
   box-sizing: border-box;
   margin-bottom: 0;
-  border-bottom: 1px solid var(--light-text-color);
 }
 
 .logo-header {
@@ -184,7 +186,7 @@ body {
 /* Section 1 */
 .list-description-style {
   list-style: none;
-  justify-content: flex-start;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
 }
@@ -257,6 +259,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 32px;
 }
 .team-card:not(:last-child) {
   margin-right: 24px;
@@ -288,7 +291,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
-  margin-bottom: 32px;
 }
 
 /* Footer */
@@ -349,7 +351,6 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .filter-btn:hover {
@@ -396,7 +397,6 @@ body {
   margin: 0px auto;
   list-style: none;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 .section {
   padding: 120px 0px;
