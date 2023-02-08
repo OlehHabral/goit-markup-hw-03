@@ -138,6 +138,7 @@ body {
 /* Hero image */
 .hero {
   background: var(--navy-backgr-color);
+  padding: 188px 0px;
 }
 .hero-header {
   font-family: var(--primary-font);
