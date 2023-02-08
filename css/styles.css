@@ -244,8 +244,9 @@ body {
 }
 
 /* Section 3 */
-.list-team-style {
+.list-team {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .our-team {
@@ -255,13 +256,8 @@ body {
   background: var(--white-backgr-color);
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
-}
-.team-card:not(:last-child) {
-  margin-right: 24px;
 }
 .team-header {
   font-family: var(--primary-font);
@@ -291,10 +287,12 @@ body {
   line-height: 1.5;
   color: var(--secondary-text-color);
 }
-.team-div
+.team-item {
+  padding: 32px 16px;
+}
 
 /* Footer */
-.footer {
+.footer-section {
   background: var(--navy-backgr-color);
   padding: 100px 0;
 }
