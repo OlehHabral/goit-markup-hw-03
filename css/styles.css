@@ -271,6 +271,8 @@ body {
   margin-bottom: 72px;
 }
 .team-name {
+  display: flex;
+  justify-content: center;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 500;
@@ -278,18 +280,16 @@ body {
   line-height: 1.11;
   color: var(--primary-text-color);
   margin-bottom: 8px;
-  display: flex;
-  justify-content: center;
 }
 .team-text {
+  display: flex;
+  justify-content: center;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
-  display: flex;
-  justify-content: center;
 }
 .team-item {
   padding: 32px 16px;
